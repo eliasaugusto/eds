@@ -39,10 +39,6 @@ const setImage = (imgUrl, imgAlt, wrapEl, wrapClass) => {
   wrapEl.append(media);
 };
 
-const AlwaysFalse = () => {
-  return false;
-}
-
 export {
   readKeyValueBlock,
   getText,
